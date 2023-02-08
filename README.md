@@ -12,7 +12,8 @@ anaquarto start
 anaquarto stop
 ```
 ### render
-```anaquarto render FILENAME.qmd
+```
+anaquarto render FILENAME.qmd
 ```
 ### preview
 ```
