@@ -15,6 +15,7 @@ anaquarto stop
 ```
 anaquarto sttach
 ```
+You should detach from a container by Ctrl-P Ctrl-Q, not exit.
 ### render
 ```
 anaquarto render FILENAME.qmd
