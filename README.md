@@ -23,3 +23,8 @@ anaquarto render FILENAME.qmd
 ```
 anaquarto preview FILENAME.qmd
 ```
+### init
+You can make a quarto file-set using [init_quarto](https://github.com/anabanted/init_quarto)
+```
+anaquarto init OPTIONS
+```
