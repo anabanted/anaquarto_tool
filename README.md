@@ -11,6 +11,10 @@ anaquarto start
 ```
 anaquarto stop
 ```
+### attach
+```
+anaquarto sttach
+```
 ### render
 ```
 anaquarto render FILENAME.qmd
