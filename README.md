@@ -13,7 +13,7 @@ anaquarto stop
 ```
 ### attach
 ```
-anaquarto sttach
+anaquarto attach
 ```
 You should detach from a container by Ctrl-P Ctrl-Q, not exit.
 ### render
