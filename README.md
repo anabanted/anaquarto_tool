@@ -29,3 +29,8 @@ You have to install init_quarto to use anaquarto init
 ```
 anaquarto init OPTIONS
 ```
+### exec
+You can exec command in docker exec -it.
+```
+anaquarto exec COMMAND
+```
