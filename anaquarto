@@ -1,0 +1,21 @@
+#! /bin/bash
+
+subcommand="$1"
+case $subcommand in
+    start)
+    docker run -v "$PWD":/quarto -p 8000:8000 --name anaquarto -dit anabanted/quarto /bin/bash
+    ;;
+    stop)
+    docker stop anaquarto
+    docker rm anaquarto
+    ;;
+    attach)
+    docker attach anaquarto
+    ;;
+    preview)
+    docker exec -it anaquarto quarto preview /quarto/$2 --port 8000 --host 0.0.0.0
+    ;;
+    render)
+    docker exec -it anaquarto quarto render /quarto/$2
+    ;;
+esac
